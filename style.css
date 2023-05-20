@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    max-width: 1000px;
+    background-color:aliceblue;
+    margin: 0 auto;
+    padding: 30px;
+}
+header{
+
+}
+.profile-image {
+    width: 150px;
+    height: 160px;
+    border: 3px solide white;
+    border-radius: 50%;
+    float: left;  
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: navy;
+    text-align: justify;
+}
+.header-address{
+    float: right;
+    padding: 30px;
+}
+.header-address a {
+    text-decoration: none;
+    color:navy;
+}
+.header-address a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border: 3px solid blue;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#section-1{
+
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float:left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: 1px solid blue;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+#section-2{
+
+}
+.right-div span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#section-3{
+
+}
+.right-div .edu-template-left{
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+
+right-div .edu-template-rihght{
+    width: 50%;
+    float: right;
+    text-align: justify;
+}
+.ref{
+    margin: 20px auto;
+    text-align: center;  
+}
+.ref-left-div{
+    max-width: 50%;
+    float: left;
+    border: solid white 2px;
+}
+.ref-right-div{
+    max-width: 50%;
+    float: right;    
+    border: solid white 2px;
+}
